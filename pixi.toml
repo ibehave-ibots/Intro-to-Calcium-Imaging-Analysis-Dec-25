@@ -1,0 +1,21 @@
+[workspace]
+authors = ["obi <ole.bialas@posteo.de>"]
+channels = ["conda-forge"]
+name = "Intro-to-Calcium-Imaging-Analysis-Dec-25"
+platforms = ["linux-64", "win-64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+install-kernel = "python -m ipykernel install --user --name intro2caim"
+
+[dependencies]
+numpy = ">=2.3.5,<3"
+scipy = ">=1.16.3,<2"
+matplotlib = ">=3.10.8,<4"
+tifffile = ">=2025.12.12,<2026"
+python = "==3.12"
+ipykernel = ">=7.1.0,<8"
+pyocclient = ">=0.6,<0.7"
+
+[pypi-dependencies]
+oasis-deconv = ">=0.2.1, <0.3"

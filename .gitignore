@@ -1,1 +1,6 @@
 **/*solutions.ipynb
+**/data
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+.vscode
