@@ -7,7 +7,7 @@
 **Instructor**: Dr. Ole Bialas
 
 **Agenda**:
-- Fundamentals of Spike Train Analysis
+- Fundamentals of Spike Train Analysis (https://colab.research.google.com/drive/1N-sSIAwG1_BHO_n9akMjiK7qw7Mcnemf?usp=sharing)
 - Single-Pixel Fluoresence in Calcium Imaging
 - Spike Inference for Calcium Traces
 
